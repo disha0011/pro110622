@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+   int a[5] ,i;
+   char b[5],j;
+  for(i=0;i<=5;i++)
+{
+   printf("enter a[%d]":" ,i); 
+   scanf("%d",&a[i]);
+}
+for(j=0;j<=5;j++)
+{
+   printf("enter b[%c]:" ,j); 
+   scanf("%c",&b[j]);
+}
+  for(i=0;i<=5;i++)
+{
+   printf("value a:[%d]  :%d" ,a[i]); 
+   }
+  for(j=0;j<=5;j++)
+{
+    printf("value b:[%c] :%d" ,b[j]);  
+
+}
+}
